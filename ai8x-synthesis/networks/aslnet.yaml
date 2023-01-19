@@ -1,0 +1,47 @@
+arch: aslnet
+dataset: asl
+
+# Define layer parameters in order of the layer sequence
+layers:
+  - pad: 2
+    activate: ReLU
+    out_offset: 0x2000
+    processors: 0x0000.0000.0000.0001
+    data_format: HWC
+    op: conv2d
+  - pad: 0
+    activate: ReLU
+    out_offset: 0x0000
+    processors: 0x0000.003f.0000.0000
+    op: conv2d
+  - pad: 0
+    avg_pool: 2
+    pool_stride: 2
+    activate: ReLU
+    out_offset: 0x2000
+    processors: 0x003f.0000.0000.0000
+    op: conv2d
+  - pad: 0
+    activate: ReLU
+    out_offset: 0x0000
+    processors: 0x0000.0000.0000.ffff
+    op: conv2d
+  - avg_pool: 2
+    pool_stride: 2
+    out_offset: 0x2000
+    processors: 0x0000.0000.ffff.0000
+    op: None
+  - op: mlp
+    flatten: true
+    out_offset: 0x0000
+    processors: 0000.0000.ffff.0000
+  - op: mlp
+    out_offset: 0x2000
+    processors: 0x0fff.ffff.ffff.ffff
+  - op: mlp
+    out_offset: 0x0000
+    output_width: 32
+    processors: 0xffff.ffff.fff0.0000
+
+
+

@@ -1,0 +1,7 @@
+ai8xize.py --test-dir synthed_net --prefix memenet --checkpoint-file trained/aslnet_trained-q.pth.tar --config-file networks/aslnet.yaml --sample-input tests/sample_asl.npy --softmax --device MAX78000 --compact-data --mexpress --timer 0 --display-checkpoint --verbose --overwrite
+MAX78000
+
+memenet
+NOTICE: Layer 1: The input channel count (6) is not a multiple of 4. Best energy performance is achieved with multiples of 4.
+NOTICE: Layer 2: The input channel count (6) is not a multiple of 4. Best energy performance is achieved with multiples of 4.
+ERROR: Layer 4: 16 output channels using 1 pass (16 processors per pass), but the processor output map 0xfffffffffffffff0 has 60 bits instead of the expected number of 16.

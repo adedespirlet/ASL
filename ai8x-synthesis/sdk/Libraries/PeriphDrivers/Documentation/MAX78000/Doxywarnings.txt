@@ -1,0 +1,40 @@
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/cameraif.h:55: warning: missing title after \defgroup cameraif
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/i2s.h:328: warning: end of file while inside a group
+
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/CMSIS/Device/Maxim/MAX78000/Include/pcif_regs.h:79: warning: group cameraif_registers: ignoring title "PCIF_Registers" that does not match old title "CAMERAIF_Registers"
+
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/aes.h:94: warning: unable to resolve reference to `mxc_aes_enc_type_t' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/gpio.h:303: warning: explicit link request to 'callback_fn' could not be resolved
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/gpio.h:304: warning: explicit link request to 'callback_fn' could not be resolved
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/i2s.h:198: warning: argument 'smple_sz' of command @param is not found in the argument list of MXC_I2S_CalculateClockDiv(uint32_t smpl_rate, mxc_i2s_wsize_t smpl_sz, uint32_t i2s_clk)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/i2s.h:206: warning: The following parameters of MXC_I2S_CalculateClockDiv(uint32_t smpl_rate, mxc_i2s_wsize_t smpl_sz, uint32_t i2s_clk) are not documented:
+  parameter 'smpl_sz'
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/i2s.h:267: warning: argument 'Pointer' of command @param is not found in the argument list of MXC_I2S_Transaction(mxc_i2s_req_t *i2s_req)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/i2s.h:273: warning: The following parameters of MXC_I2S_Transaction(mxc_i2s_req_t *i2s_req) are not documented:
+  parameter 'i2s_req'
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/i2s.h:276: warning: argument 'Pointer' of command @param is not found in the argument list of MXC_I2S_TransactionAsync(mxc_i2s_req_t *i2s_req)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/i2s.h:282: warning: The following parameters of MXC_I2S_TransactionAsync(mxc_i2s_req_t *i2s_req) are not documented:
+  parameter 'i2s_req'
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/pt.h:203: warning: unable to resolve reference to `MXC_PT_INTFL_Register' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/pt.h:195: warning: unable to resolve reference to `MXC_PT_INTFL_Register' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:177: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:161: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:153: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:125: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:106: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:98: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:132: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:138: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:112: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:117: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/rtc.h:145: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:665: warning: argument 'uart' of command @param is not found in the argument list of MXC_UART_GetAsyncRXCount(mxc_uart_req_t *req)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:671: warning: The following parameters of MXC_UART_GetAsyncRXCount(mxc_uart_req_t *req) are not documented:
+  parameter 'req'
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:656: warning: argument 'uart' of command @param is not found in the argument list of MXC_UART_GetAsyncTXCount(mxc_uart_req_t *req)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:662: warning: The following parameters of MXC_UART_GetAsyncTXCount(mxc_uart_req_t *req) are not documented:
+  parameter 'req'
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:371: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:246: warning: unable to resolve reference to `UART' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:236: warning: unable to resolve reference to `UART' for \ref command
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/AI85/MAX78000/Libraries/PeriphDrivers/Include/MAX78000/uart.h:405: warning: unable to resolve reference to `MXC_ERROR_CODES' for \ref command

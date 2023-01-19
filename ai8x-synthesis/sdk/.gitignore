@@ -1,0 +1,7 @@
+Examples/*/*/build
+Examples/*/*/buildrv
+Examples/*/*/*/build
+Examples/*/*/*/buildrv
+.vscode/settings.json
+Libraries/PeriphDrivers/bin
+Examples/MAX78000/PowerTest
